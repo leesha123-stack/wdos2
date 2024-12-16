@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5fafd;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #009688;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header .nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  header .nav-links a:hover {
+    color: #80cbc4;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #00796b;
+    margin-bottom: 2rem;
+  }
+  
+  /* Checkout Container */
+  .checkout-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .order-details,
+  .customer-details {
+    flex: 1;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  
+  .order-details h2,
+  .customer-details h2 {
+    margin-bottom: 1rem;
+    color: #00796b;
+  }
+  
+  .checkout-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .checkout-table th,
+  .checkout-table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  
+  .checkout-table th {
+    background-color: #e0f2f1;
+    color: #00796b;
+  }
+  
+  form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea,
+  form select,
+  form button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #009688;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #00796b;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  

@@ -1,0 +1,551 @@
+body {
+    font-family: Arial,
+}
+
+body{
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ddd;
+}
+
+header {
+    background-color: #0a8c76;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h2 {
+    color: #00796B;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+footer {
+    background-color: #002b4c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-about h4,
+.footer-links h4,
+.footer-contact h4 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #00bfa5;
+}
+
+.footer-about p,
+.footer-contact p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #00bfa5;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #00796b;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#consulting-intro {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+#consulting-intro img {
+    width: 80%;
+    margin-right: 20px;
+}
+
+#consulting-intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+
+.consulting-intro {
+    margin: 40px 0;
+}
+
+#consulting-intro .box {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    align-items: center;
+}
+
+.image img {
+    width: 50%;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.details {
+    width: 50%;
+}
+
+.details h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.details ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.details ul li {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+/* Consultant incharge section */
+.main-consulter {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.consultant img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.consultant h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.consultant p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Consulting form section */
+#consulting-form {
+    margin: 40px 0;
+}
+
+#consulting-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#consulting-form label {
+    margin-top: 10px;
+}
+
+#consulting-form input,
+#consulting-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#consulting-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #00796B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#consulting-form button:hover {
+    background-color: #004D40;
+}
+
+
+.box {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #0a8c76;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Conto for Flex Layout */
+.conto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conto .image-container img {
+    max-width: 350px;
+    border-radius: 8px;
+}
+
+.conto .text-container {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #00796B;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Form Section */
+#medicine-form form {
+    
+    flex-direction: column;
+}
+
+#medicine-form label {
+    margin-top: 10px;
+}
+
+#medicine-form input {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#medicine-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #254be6;
+    color:#000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#medicine-form button:hover {
+    background-color: #004D40;
+}
+/* Responsive */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 , h2{
+    color: #fffefe;
+}
+
+ h3, h4 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Header styles */
+header {
+    background-color: #00796B;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Consulting intro section */
+#consulting-intro {
+    background-color:#ddd;
+    padding: 40px 0;
+}
+
+#consulting-intro .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#consulting-intro .image img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+#consulting-intro .details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#consulting-intro .details h2 {
+    margin-bottom: 20px;
+}
+
+#consulting-intro .details p,
+#consulting-intro .details ul {
+    margin-bottom: 15px;
+}
+
+#consulting-intro ul {
+    list-style: none;
+}
+
+#consulting-intro ul li {
+    margin: 5px 0;
+}
+
+/* Consulting incharge section */
+#main-consulter {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#main-consulter img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#main-consulter h2 {
+    margin-bottom: 20px;
+}
+
+#main-consulter p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Consulting form section */
+#consulting-form {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#consulting-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#consulting-form label {
+    margin-bottom: 10px;
+}
+
+#consulting-form input,
+#consulting-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#consulting-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#consulting-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #002b4c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    #consulting-intro .box {
+        flex-direction: column;
+    }
+
+    #consulting-intro .details {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 1.5em;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    #consulting-form form {
+        width: 90%;
+    }
+
+    #main-consulter img {
+        width: 150px;
+    }
+}

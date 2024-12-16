@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - Starlight Medical Center</title>
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <span class="logo">Starlight Medical Center</span>
+        <div class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./abouTUs.html">About Us</a></li>
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./Doctor.html">Doctors</a></li>
+          <li><a href="./Consult.html">Consult</a></li>
+          <li><a href="./Registration.html">Registrations</a></li>
+          <li><a href="./order.html">Pharmacy</a></li>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Checkout Section -->
+    <main>
+      <h1>Checkout</h1>
+      <section class="checkout-container">
+        <div class="order-details">
+          <h2>Your Order</h2>
+          <table class="checkout-table">
+            <thead>
+              <tr>
+                <th>Medicine</th>
+                <th>Quantity</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody id="checkout-items"></tbody>
+            <tfoot>
+              <tr>
+                <td colspan="2"><strong>Total</strong></td>
+                <td id="checkout-total">$0</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div class="customer-details">
+          <h2>Customer Information</h2>
+          <form id="checkout-form">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your full name"
+              required
+            />
+
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="address">Delivery Address</label>
+            <textarea
+              id="address"
+              placeholder="Enter your delivery address"
+              required
+            ></textarea>
+
+            <label for="payment">Payment Method</label>
+            <select id="payment" required>
+              <option value="credit">Credit Card</option>
+              <option value="debit">Debit Card</option>
+              <option value="cash">Cash on Delivery</option>
+            </select>
+
+            <button type="submit" class="btn-primary">Place Order</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Starlight Medical Center | All Rights Reserved</p>
+    </footer>
+
+    <script src="checkout.js"></script>
+  </body>
+</html>

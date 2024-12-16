@@ -1,0 +1,58 @@
+{
+    "categories": [
+      {
+        "name": "Analgesics",
+        "items": [
+          { "name": "Paracetamol", "price": 3, "image": "images/tablets.jpg" },
+          { "name": "Ibuprofen", "price": 5, "image": "images/tablets.jpg" },
+          { "name": "Aspirin", "price": 4, "image": "images/tablets.jpg" },
+          { "name": "Naproxen", "price": 6, "image": "images/tablets.jpg" },
+          { "name": "Codeine", "price": 8, "image": "images/tablets.jpg" },
+          { "name": "Morphine", "price": 10, "image": "images/tablets.jpg" }
+        ]
+      },
+      {
+        "name": "Antibiotics",
+        "items": [
+          { "name": "Amoxicillin", "price": 7, "image": "images/tablets.jpg" },
+          { "name": "Ciprofloxacin", "price": 8, "image": "images/tablets.jpg" },
+          { "name": "Doxycycline", "price": 6, "image": "images/tablets.jpg" },
+          { "name": "Clindamycin", "price": 9, "image": "images/tablets.jpg" },
+          { "name": "Erythromycin", "price": 7, "image": "images/tablets.jpg" },
+          { "name": "Azithromycin", "price": 8, "image": "images/tablets.jpg" }
+        ]
+      },
+      {
+        "name": "Antidepressants",
+        "items": [
+          { "name": "Sertraline", "price": 12, "image": "images/tablets.jpg" },
+          { "name": "Fluoxetine", "price": 10, "image": "images/tablets.jpg" },
+          { "name": "Citalopram", "price": 11, "image": "images/tablets.jpg" },
+          { "name": "Paroxetine", "price": 13, "image": "images/tablets.jpg" },
+          { "name": "Venlafaxine", "price": 15, "image": "images/tablets.jpg" },
+          { "name": "Amitriptyline", "price": 10, "image": "images/tablets.jpg" }
+        ]
+      },
+      {
+        "name": "Antihistamines",
+        "items": [
+          { "name": "Loratadine", "price": 5, "image": "images/tablets.jpg" },
+          { "name": "Cetirizine", "price": 4, "image": "images/tablets.jpg" },
+          { "name": "Fexofenadine", "price": 6, "image": "images/tablets.jpg" },
+          { "name": "Diphenhydramine", "price": 3, "image": "images/tablets.jpg" }
+        ]
+      },
+      {
+        "name": "Antihypertensives",
+        "items": [
+          { "name": "Atenolol", "price": 8, "image": "images/tablets.jpg" },
+          { "name": "Losartan", "price": 10, "image": "images/tablets.jpg" },
+          { "name": "Lisinopril", "price": 9, "image": "images/tablets.jpg" },
+          { "name": "Metoprolol", "price": 11, "image": "images/tablets.jpg" },
+          { "name": "Valsartan", "price": 12, "image": "images/tablets.jpg" },
+          { "name": "Clonidine", "price": 7, "image": "images/tablets.jpg" }
+        ]
+      }
+    ]
+  }
+  

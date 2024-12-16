@@ -1,0 +1,518 @@
+body {
+    font-family: Arial,
+}
+
+body{
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ddd;
+}
+
+header {
+    background-color: #0a8c76;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h2 {
+    color: #00796B;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.team-member {
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    margin-top: 0;
+    color: #0a8c76;
+    font-size: 1.5em;
+}
+
+.team-member p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+footer {
+    background-color: #002b4c;
+    color: white;
+    padding: 40px 0;
+    font-size: 0.9em;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-about h4,
+.footer-links h4,
+.footer-contact h4 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #00bfa5;
+}
+
+.footer-about p,
+.footer-contact p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #00bfa5;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #00796b;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member {
+    flex: 1;
+}
+
+.member h3 {
+    margin-top: 0;
+    color: #0a8c76;
+    font-size: 1.5em;
+}
+
+.member p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+#services {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+#services h2 {
+    text-align: center;
+    color: #00796B;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+
+#location {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#location h2 {
+    color: #00796B;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #00796B;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #002b4c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Basic reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #00796B;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #00796B;
+}
+
+#services .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Each service box */
+.service-cube {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 48%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.service-log img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.service-para h3 {
+    margin: 0;
+    color: #0a8c76;
+    font-size: 1.8em;
+}
+
+.service-para p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #002b4c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+#services {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+#services .container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 0 20px;
+}
+
+.service-box {
+    background-color: #00796B;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    width: 100%; 
+    max-width: 400px; 
+    margin: 20px; 
+}
+
+.service-icon img {
+    width: 250px; 
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+.service-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.service-info p {
+    font-size: 1.2em; 
+    color: #e0f2f1;
+    line-height: 1.5em; 
+}
+
+/* Add a hover effect for interactivity */
+.service-box:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+#register-link {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#register-link p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.register-btn {
+    color: #00796B;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #00796B;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #00796B;
+    color: white;
+}
+
+#doctors {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+#doctors .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.doctor-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.doctor-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.doctor-box h3 {
+    font-size: 1.5em;
+    color: #00796B;
+    margin-bottom: 10px;
+}
+
+.doctor-box p {
+    font-size: 1em;
+    color: #555;
+}
+
+.container35 {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00796B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #004D40;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Medicine - Starlight Medical Center</title>
+    <link rel="stylesheet" href="order.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <span class="logo">Starlight Medical Center</span>
+        <div class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./abouTUs.html">About Us</a></li>
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./Doctor.html">Doctors</a></li>
+          <li><a href="./Consult.html">Consult</a></li>
+          <li><a href="./Registration.html">Registrations</a></li>
+          <li><a href="./order.html">Pharmacy</a></li>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Medicine Categories Section -->
+      <section id="medicine-categories" class="category-section">
+        <h2>Choose Your Medicines</h2>
+        <div id="categories-container" class="medicines-container"></div>
+      </section>
+
+      <!-- Order Summary Section -->
+      <section id="order-summary" class="cart-container">
+        <h2>Your Order</h2>
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th>Medicine</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Subtotal</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="order-items"></tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3"><strong>Total</strong></td>
+              <td id="total-price">$0</td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+        <div class="cart-actions">
+          <button id="buy-now" class="btn-primary">Buy Now</button>
+          <button id="add-favorite" class="btn-secondary">
+            Add to Favorites
+          </button>
+          <button id="apply-favorite" class="btn-secondary">
+            Apply Favorites
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Starlight Medical Center | All Rights Reserved</p>
+      <div class="social-icons">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter" /></a>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
+      </div>
+    </footer>
+
+    <script src="order.js"></script>
+  </body>
+</html>
